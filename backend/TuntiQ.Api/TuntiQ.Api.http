@@ -1,0 +1,16 @@
+@host = https://localhost:7001
+
+### Get dimensions
+GET {{host}}/api/app/dimensions?pageNumber=1&pageSize=20
+
+### Create dimension
+POST {{host}}/api/app/dimensions
+Content-Type: application/json
+
+{
+  "kind": "General",
+  "nameEn": "Billing",
+  "nameFi": "Laskutus",
+  "allowMultiple": false,
+  "isMandatory": true
+}

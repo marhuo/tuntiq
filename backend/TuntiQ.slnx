@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="TuntiQ.Api/TuntiQ.Api.csproj" />
+  <Project Path="TuntiQ.Application/TuntiQ.Application.csproj" />
+  <Project Path="TuntiQ.Domain/TuntiQ.Domain.csproj" />
+  <Project Path="TuntiQ.Infrastructure/TuntiQ.Infrastructure.csproj" />
+  <Project Path="TuntiQ.Shared/TuntiQ.Shared.csproj" />
+</Solution>
