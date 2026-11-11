@@ -1,0 +1,118 @@
+# =========================================================
+#  Yhteiset / käyttöjärjestelmä ja editorit
+# =========================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+*.log
+
+# Ympäristömuuttujat ja salaisuudet
+.env
+.env.*
+!.env.example
+
+# =========================================================
+#  .NET Web API
+# =========================================================
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ll]og/
+[Ll]ogs/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+project.lock.json
+project.fragment.lock.json
+artifacts/
+publish/
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+# Paikalliset asetukset (salaisuudet) – jätä appsettings.json versionhallintaan
+#appsettings.Development.json
+appsettings.Local.json
+# SQLite-tietokannat
+*.db
+*.db-shm
+*.db-wal
+
+# =========================================================
+#  Svelte / SvelteKit (Node)
+# =========================================================
+node_modules/
+.svelte-kit/
+build/
+dist/
+.vercel/
+.netlify/
+.output/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# =========================================================
+#  Flutter / Dart
+# =========================================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+**/doc/api/
+*.iml
+*.ipr
+*.iws
+
+# Android
+**/android/.gradle/
+**/android/captures/
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+*.jks
+*.keystore
+
+# iOS / macOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+xcuserdata/
+DerivedData/
+
+# Windows / Linux desktop
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+
+# Web
+**/web/flutter_service_worker.js

@@ -1,0 +1,1 @@
+M:System.Guid.NewGuid();Use Guid.CreateVersion7() instead

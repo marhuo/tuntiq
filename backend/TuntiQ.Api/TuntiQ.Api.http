@@ -1,0 +1,16 @@
+@host = https://localhost:7001
+
+### Hae dimensiot
+GET {{host}}/api/app/dimensions?pageNumber=1&pageSize=20
+
+### Luo dimensio
+POST {{host}}/api/app/dimensions
+Content-Type: application/json
+
+{
+  "kind": "General",
+  "nameEn": "Billing",
+  "nameFi": "Laskutus",
+  "allowMultiple": false,
+  "isMandatory": true
+}
